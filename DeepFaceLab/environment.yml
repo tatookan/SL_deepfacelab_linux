@@ -1,7 +1,10 @@
 name: deepfacelab
 channels:
-  - conda-forge
-  - defaults
+- https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+- https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+- https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+- defaults
+show_channel_urls: true
 dependencies:
   - cudatoolkit=11.3.1
   - cudnn=8.2.1
